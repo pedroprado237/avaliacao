@@ -1,0 +1,50 @@
+html{
+    background-color: black;
+}
+/* Alinhamento do titulo:*/
+.titulo{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: black;
+    background-color: black;
+
+}
+.cuadrado{
+    margin: 16px;
+    background-color:white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+/*Alinhamento dos Divs:*/
+
+.div_principal{
+    /*margin: 2px 50px 10px 50px; /*Margin geral*/
+    display: flex; /*forçou as divs a ficarem em colunas para que possam ficar lado a lado */
+    background-color: black;
+    
+}
+
+.card{
+    margin: 15px; /*Espaçamento*/
+       
+}
+.card-body{
+    position: relative;
+    
+       
+}
+/*Botões:*/
+
+.btn{
+    position:absolute;
+    bottom:10px;
+
+}
+
+
+

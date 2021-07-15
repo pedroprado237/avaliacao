@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href = "as.css" rel ="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="icone.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title> Tags no HTML</title>
+    
+  </head>
+  <body>
+      <div class="titulo">
+          <div class="cuadrado">
+            <h3>TAGS DO HTML</h3> 
+        </div>
+
+      </div>
+
+    <div class="div_principal">
+        <!-- TAG - PRE -->
+        <div class="card" style="width: 35rem;">
+            <div class="card-body">
+                <h5 class="card-title">TAG: Pre</h5>
+                <p class="card-text"> O texto dentro da tag &lt;pre&gt; é exibido em uma fonte de largura fixa e preserva os espaços e as quebras de linha.
+                    O texto será exibido exatamente como escrito no código-fonte HTML.<br> 
+                    Muito utilizado para exibir trechos de códigos em exemplificações.<br>
+                    <b>Dica:</b> Existem outras tags semelhantes que são capazes de transformar/mostrar os texto em diferentes modelos.<br>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/code"target="_blank"> &lt;code&gt; </a>Parte de um código.<br> 
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp"target="_blank"> &lt;samp&gt; </a>A saida de um código.<br>
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/var"target="_blank"> &lt;var&gt; </a>Uma variavel no contexto computacional.<br><br>
+                    Exemplicação:<br>
+                    
+                    &lt;pre&gt;<br>
+                    &emsp;.body{<br>
+                    &emsp;&emsp;color: red;<br>
+                    &emsp;}<br>
+                    &lt;/pre&gt;<br>
+
+            </p>
+        
+            <br>
+               
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/pre" target="_blank" class="btn btn-primary">Documentação</a>
+            </div>
+        </div>
+
+        <!-- TAG - IMG -->
+        <div class="card" style="width: 35rem;">
+            <div class="card-body">
+                <h5 class="card-title">TAG: Img</h5>
+                <p class="card-text">A tag &lt;img&gt; é usada para inserir uma imagem em uma página HTML.<br>
+                    Essa tag tem dois atributos principais:<br>
+                    <b>src:</b> especifica o caminho da imagem.<br>
+                    <b>alt:</b> especifica um texto alternativo para a imagem, se por algum motivo a imagem não possa ser exibida.<br>
+                    <b>Nota:</b> A altura e a largura devem ser sempre especificadas. Caso não sejam, a página pode piscar enquanto a imagem é carregada.<br>
+                    <b>Dica:</b> Para que a tag funcione corretamente, você deve sempre especificar o formato da imagem ou gif.<br>
+                    <br>
+                    Exemplicação:<br>
+            
+                &lt;img src="ornitorrinco.png" alt="Erro"<br>
+                width="500" height="600"&gt;
+
+                </p>
+
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img" target="_blank" class="btn btn-primary">Documentação</a>
+            </div>
+        </div>
+
+        <!-- TAG - VIDEO -->
+        <div class="card" style="width: 35rem;">
+            <div class="card-body">
+                <h5 class="card-title">TAG: Video</h5>
+                <p class="card-text">A tag &lt;video&gt; é usada para incorporar conteúdo de vídeo, como exemplo clipes de filme, dentre outros.<br>
+                    Essa tag contém uma ou mais <b>source</b> tags com diferentes fontes de video. O navegador
+                    escolherá a primeira fonte que suporta.<br>
+                    O texto escrito entre esse tag só séra exibido em navegadores que não suportam o elemento <b>video</b>. <br>
+                    Existem 3 formatos suportados em HTML: MP4, WebM e OGG.<br>
+                    <b>Dica:</b> Para arquivos de áudio, de uma olhada para a tag<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/audio"target="_blank"> &lt;audio&gt;</a><br>
+                    <br>
+                    Exemplificação:<br>
+        
+                &lt;video width="320" height="240" controls&gt;<br>
+                &lt;source src="video.mp4" type="video/mp4"&gt;<br>
+                Seu navegador não suporta vídeos<br>
+                &lt;/video&gt;
+
+                </p>
+ 
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/video" target="_blank" class="btn btn-primary"> Documentação</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
